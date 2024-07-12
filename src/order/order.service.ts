@@ -65,9 +65,4 @@ export class OrderService {
         }
     }
 
-    /**
-     * Produtos: Adicione 10% de imposto sobre o preço do produto.
-     * Serviços: Adicione 7,5% de imposto sobre o preço do serviço.
-     * Locações: Adicione 5% de imposto sobre o preço da locação.
-     */
 }
