@@ -30,9 +30,16 @@ export class OrderService {
         const order = await this.prisma.order.findUnique({
             where: { id }
         });
+
+        const products = await this.itemService.getAllProducts(id);
+        const services = await this.itemService.getAllServices(id);
+        const loans    = await this.itemService.getAllLoans(id);
                 
+        const items = [ ...products, ...services, ...loans ]
+
         return {
-            order
+            order,
+            items
         }
     }
 
