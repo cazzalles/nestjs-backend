@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { randomUUID } from "node:crypto";
-import { PrismaService } from "src/database/prisma.service";
+import { PrismaService } from "../../database/prisma.service";
 import { Item } from "./dto/item.dto";
 
 @Injectable()
