@@ -1,0 +1,25 @@
+model Order {
+  id    String @id
+  name  String 
+}
+
+model Product {
+  id        String @id
+  name      String
+  order_id  String 
+  price     Float 
+}
+
+model Service {
+  id        String @id
+  name      String
+  order_id  String 
+  price     Float 
+}
+
+model Loan {
+  id        String @id
+  name      String
+  order_id  String 
+  price     Float 
+}
