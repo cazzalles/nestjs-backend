@@ -137,8 +137,8 @@ Escreva o objeto da seção do corpo da requisição.
 }
 ```
 
-Para o campo ```type```, utilize apenas ```"product"```, ```"service"``` ou ```loan```.
-Para o campo ```price```, utilize apenas valores númericos reais.    
+Para o campo `type`, utilize apenas `"product"`, `"service"` ou `"loan"`.
+Para o campo `price`, utilize apenas valores númericos reais.    
 
 
 Certifique-se de que o banco de dados e os valores utilizados estejam criados
