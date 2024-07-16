@@ -34,17 +34,28 @@ devidamente ao esperado de boas práticas de desenvolvimento e arquitetura.
 $ npm install
 ```
 
+```bash
+# inicialize o prisma
+$  npx prisma init --datasource-provider SQLite
+```
+**IMPORTANTE:**  Substitua o arquivo `prisma/schema.prisma` pelo `src/database/schema.prisma`
+
+```bash
+# crie a migration
+$  npx prisma migrate dev
+```
+
 ## Executando a aplicação
 
 ```bash
-# watch mode
+# execute em watch mode
 $ npm run start:dev
 ```
 
 ## Banco de Dados
 
 ```bash
-# inicializa a visualização
+# inicialize a visualização do banco de dados
 $ npx prisma studio
 ```
 
