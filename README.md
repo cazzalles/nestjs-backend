@@ -153,7 +153,12 @@ Para o campo `price`, utilize apenas valores númericos reais.
 
 
 Certifique-se de que o banco de dados e os valores utilizados estejam criados
-e persistidos. 
+e persistidos.
+
+Comece criando pedidos, depois itens.
+
+Lembre-se que deverás alterar sempre a `url` das requisições para atender aos 
+objetos que existem persistidos de fato.
 
 ## Contato
 
