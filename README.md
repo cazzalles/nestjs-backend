@@ -37,21 +37,15 @@ $ npm install
 ## Executando a aplicação
 
 ```bash
-# desenvolvimento
-$ npm run start
-
 # watch mode
 $ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
 ## Banco de Dados
 
 ```bash
 # inicializa a visualização
-$ npm prisma studio
+$ npx prisma studio
 ```
 
 ## Testes
